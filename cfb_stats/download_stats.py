@@ -1,8 +1,8 @@
 import requests
 import pickle
 
-start_date = '2009-08-01'
-end_date = '2017-04-01'
+start_date = '2017-08-01'
+end_date = '2018-04-01'
 
 url = 'http://sports.snoozle.net/api?league=cfb&fileType=json&statType=matchup&startDate={}&endDate={}'.format(start_date, end_date)
 
